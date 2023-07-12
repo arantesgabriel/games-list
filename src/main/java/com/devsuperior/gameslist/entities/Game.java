@@ -17,7 +17,10 @@ public class Game {
     private String genero;
     private String plataformas;
     private String imgUrl;
+    @Column(columnDefinition = "TEXT")
     private String descricaoCurta;
+
+    @Column(columnDefinition = "TEXT")
     private String descricaoLonga;
 
     public Game() {
